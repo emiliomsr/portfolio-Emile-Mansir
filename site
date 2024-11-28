@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio d'Emile Mansir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Section de présentation -->
+    <section id="bio-container">
+        <h1>Emile Mansir</h1>
+        <p>Étudiant en 3ème année de licence professionnelle commercialisation des produits et services sportifs.</p>
+        <p>Je suis passionné par le sport, en particulier par le football et le tennis. Je cherche à développer mes compétences en marketing et communication dans l'univers sportif.</p>
+        <!-- Photo de profil centrée -->
+        <img id="profile-photo" src="https://media.licdn.com/dms/image/v2/D5603AQFHer6hJzFQeg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705418862235?e=2147483647&v=beta&t=CCrt3FgTaQaEO_We2u7e7rVXYlbBTAKv7WD8jpvXm3c" alt="Emile Mansir">
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="section">
+        <h2>Compétences</h2>
+        <p>En tant qu'étudiant en marketing sportif, j'ai acquis plusieurs compétences qui me permettent d'appréhender les enjeux de ce secteur dynamique.</p>
+        <ul>
+            <li><strong>Marketing Sportif :</strong> Élaboration de stratégies marketing pour promouvoir des produits et services sportifs.</li>
+            <li><strong>Communication Digitale :</strong> Gestion des réseaux sociaux, création de contenu et campagnes de communication en ligne.</li>
+            <li><strong>Gestion de Projets :</strong> Planification, coordination et suivi de projets pour atteindre des objectifs commerciaux.</li>
+            <li><strong>Réseaux Sociaux :</strong> Gestion des communautés, création de contenu engageant et analyse des performances sur diverses plateformes.</li>
+            <li><strong>Analyse de Marché :</strong> Études de marché pour comprendre les tendances et les besoins des consommateurs dans le domaine du sport.</li>
+            <li><strong>Gestion de la Relation Client :</strong> Stratégies pour fidéliser les clients et améliorer l’expérience utilisateur dans les secteurs du sport et du bien-être.</li>
+        </ul>
+    </section>
+
+    <!-- Section Expériences Professionnelles -->
+    <section id="experience" class="section">
+        <h2>Expériences Professionnelles</h2>
+        <p>Voici un aperçu de mes expériences professionnelles et stages qui m'ont permis de développer mes compétences dans le domaine du sport, du marketing et de la communication.</p>
+        <ul>
+            <li>
+                <strong>Alternant Chargé de Communication & Marketing</strong><br>
+                <em>La Kerner Team (Salle de sports de combats) - Paris 18ème</em> <br>
+                <span>2023 - présent</span>
+                <p>Je gère l'accueil des clients, la communication sur les réseaux sociaux, les commandes de matériel et je fais le lien avec les fédérations. Cette expérience m'a permis de comprendre l'importance de la relation client dans un secteur sportif spécialisé.</p>
+            </li>
+            <li>
+                <strong>Vendeur/Conseiller Sportif</strong><br>
+                <em>Decathlon - Paris 15ème</em><br>
+                <span>2023 (Stage)</span>
+                <p>Lors de mon stage chez Decathlon, j'ai conseillé les clients sur les produits, géré l'espace de vente, et effectué diverses tâches liées à la gestion des stocks. Cette expérience m'a permis de comprendre le côté opérationnel du commerce et du marketing sportif.</p>
+            </li>
+            <li>
+                <strong>Assistant Marketing et Communication</strong><br>
+                <em>Decathlon - Paris 11ème</em><br>
+                <span>2022 (Stage)</span>
+                <p>J'ai travaillé sur la création de contenus pour les réseaux sociaux et la mise en place de partenariats locaux. Ce stage m'a permis de renforcer mes compétences en marketing digital et en gestion de projets.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section Formation -->
+    <section id="education" class="section">
+        <h2>Formation</h2>
+        <p>Ma formation académique m'a permis d'acquérir des bases solides en marketing sportif et en gestion d'entreprise, tout en mettant en pratique mes connaissances dans des stages et des projets concrets.</p>
+        <ul>
+            <li>
+                <strong>Licence Professionnelle Commercialisation des Produits et Services Sportifs</strong><br>
+                <em>ILEPS - Cergy (95)</em><br>
+                <span>2022 - présent</span>
+                <p>Cette formation en alternance combine enseignements théoriques en marketing et communication dans le secteur sportif, et expérience professionnelle concrète au sein d'entreprises partenaires.</p>
+            </li>
+            <li>
+                <strong>Baccalauréat STMG (Sciences et Technologies du Management et de la Gestion)</strong><br>
+                <em>Lycée Charles Peguy - Paris 11ème</em><br>
+                <span>2022 (Mention Bien)</span>
+                <p>Ce baccalauréat m'a permis d'acquérir une solide base en gestion, management et communication, des compétences qui sont essentielles pour évoluer dans le secteur du marketing et du sport.</p>
+            </li>
+            <li>
+                <strong>Sport-Études Tennis</strong><br>
+                <em>École privée - Paris</em><br>
+                <span>2017 - 2020</span>
+                <p>J'ai suivi un programme de sport-études en parallèle de ma scolarité, en me consacrant au tennis de haut niveau. Cette expérience m'a appris la discipline, la gestion du temps, et la persévérance.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section Langues -->
+    <section id="languages" class="section">
+        <h2>Langues</h2>
+        <ul>
+            <li><strong>Français :</strong> Langue maternelle</li>
+            <li><strong>Anglais :</strong> Courant (TOEIC 850 points)</li>
+        </ul>
+    </section>
+
+    <!-- Section Centres d'intérêt -->
+    <section id="interests" class="section">
+        <h2>Centres d'intérêt</h2>
+        <p>Je suis un passionné de sport, notamment de football et de tennis. Ces passions m'ont guidé dans mon choix de carrière, et je cherche à m'épanouir dans un environnement lié à ces activités. Voici quelques-uns de mes centres d'intérêt :</p>
+        <ul>
+            <li><strong>Football :</strong> Je suis un fan assidu de la Ligue 1 et des compétitions internationales. Je pratique le football en amateur et suis impliqué dans un club local.</li>
+            <li><strong>Tennis :</strong> Ancien joueur de tennis de haut niveau, je suis passionné par ce sport et je suis les grands tournois comme Wimbledon et Roland-Garros.</li>
+            <li><strong>Voyages :</strong> J'aime découvrir de nouvelles cultures, ce qui m'aide à m'ouvrir à de nouvelles idées et à enrichir mes expériences personnelles et professionnelles.</li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+CCS 
+
+
+
+/* styles.css */
+
+/* Reset de marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global pour le body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Section de présentation */
+#bio-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style des sections */
+.section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Liste des compétences, expériences, etc. */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    color: #555;
+    padding: 5px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+    color: #3498db;
+    transform: translateX(10px);
+}
+
+/* Effet de zoom sur la photo de profil */
+#profile-photo:hover {
+    transform: scale(1.1);
+}
+document.addEventListener("DOMContentLoaded", function() {
+
+    // 1. Animation des sections lors du défilement (effet "fade-in")
+    const sections = document.querySelectorAll('.section');
+
+    function revealSectionsOnScroll() {
+        const windowHeight = window.innerHeight;
+
+        sections.forEach(function(section) {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < windowHeight - 100) {
+                section.classList.add('show'); // Ajouter la classe "show" pour l'animation
+            }
+        });
+    }
+
+    // Écouter le défilement
+    window.addEventListener('scroll', revealSectionsOnScroll);
+
+    // Exécuter la fonction pour les sections déjà visibles au chargement
+    revealSectionsOnScroll();
+
+    // 2. Effet de survol animé sur les éléments de liste (compétences, expérience, etc.)
+    const listItems = document.querySelectorAll('li');
+
+    listItems.forEach(function(item) {
+        item.addEventListener('mouseenter', function() {
+            item.style.transform = 'translateX(10px)';
+            item.style.transition = 'all 0.3s ease';
+            item.style.color = '#3498db'; // Change la couleur au
