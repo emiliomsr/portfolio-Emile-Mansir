@@ -1,15 +1,26 @@
+// Fonctionnalité pour zoomer sur la photo de profil au clic
+document.querySelector('.profile-pic').addEventListener('click', function() {
+    this.classList.toggle('zoomed');
+});
 
- // Écouter le défilement
-    window.addEventListener('scroll', revealSectionsOnScroll);
+// Fonctionnalité de scroll animée pour les liens internes
+document.querySelectorAll('a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        window.scrollTo({
+            top: targetElement.offsetTop - 50,  // Décalage pour tenir compte du header
+            behavior: 'smooth'
+        });
+    });
+});
 
-    // Exécuter la fonction pour les sections déjà visibles au chargement
-    revealSectionsOnScroll();
-
-    // 2. Effet de survol animé sur les éléments de liste (compétences, expérience, etc.)
-    const listItems = document.querySelectorAll('li');
-
-    listItems.forEach(function(item) {
-        item.addEventListener('mouseenter', function() {
-            item.style.transform = 'translateX(10px)';
-            item.style.transition = 'all 0.3s ease';
-            item.style.color = '#3498db'; // Change la couleur au
+// Fonctionnalité pour afficher un message à l'utilisateur lors du survol d'un bouton
+document.querySelectorAll('button, a.button').forEach(button => {
+    button.addEventListener('mouseenter', function() {
+        console.log('Vous êtes sur le bouton !');
+    });
+});
