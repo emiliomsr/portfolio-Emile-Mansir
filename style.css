@@ -79,7 +79,7 @@ h1, h2, h3 {
     width: 85%;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #0097B2;
+    border-left: 4px solid #0097B2;
 }
 
 .section .left, .section .right {
