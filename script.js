@@ -27,19 +27,19 @@ toggleButton.style.position = 'fixed';
 toggleButton.style.bottom = '20px';
 toggleButton.style.right = '20px';
 toggleButton.style.zIndex = '1000';
-toggleButton.style.backgroundColor = '#00000';
+toggleButton.style.backgroundColor = '#000000';
 toggleButton.style.color = 'white';
 toggleButton.style.padding = '10px 20px';
 toggleButton.style.borderRadius = '10px';
 toggleButton.style.border = 'none';
 toggleButton.style.cursor = 'pointer';
+toggleButton.setAttribute('aria-label', 'Activer/désactiver le mode nuit');
 document.body.appendChild(toggleButton);
 
 let isNightMode = false;
 toggleButton.addEventListener('click', () => {
     isNightMode = !isNightMode;
-    document.body.style.backgroundColor = isNightMode ? '#333' : '#F4F9FF';
-    document.body.style.color = isNightMode ? '#F4F9FF' : '#333';
+    document.body.classList.toggle('night-mode');
     toggleButton.textContent = isNightMode ? 'Mode Jour' : 'Mode Nuit';
 });
 
@@ -54,3 +54,4 @@ sections.forEach(section => {
         section.style.transform = 'scale(1)';
     });
 });
+
