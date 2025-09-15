@@ -230,4 +230,25 @@ body.night-mode a {
     color: #4dd0e1;
 }
 
-body.night-mode a:hover
+body.night-mode a:hover {
+    color: #ff6b81;
+}
+
+/* Texte gris rendu clair en mode nuit */
+body.night-mode p,
+body.night-mode li {
+    color: #f0f0f0;
+}
+
+/* Boutons */
+body.night-mode button,
+body.night-mode a.button {
+    background-color: #4dd0e1;
+    color: #121212;
+}
+
+body.night-mode button:hover,
+body.night-mode a.button:hover {
+    background-color: #ff6b81;
+    color: #ffffff;
+}
