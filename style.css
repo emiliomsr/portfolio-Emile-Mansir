@@ -2,46 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:ital,wght@1,600&family=Roboto+Slab:wght@400;700&display=swap');
 
 body {
-    background-color: #F4F9FF; /* Fond bleu très clair */
-    color: #333333; /* Texte foncé */
-    font-family: 'Nunito', sans-serif; /* Police propre et lisible */
+    background-color: #F4F9FF;
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* En-tête : nom et photo centrés */
+/* En-tête */
 header {
     display: flex;
-    flex-direction: column; /* Aligne verticalement */
+    flex-direction: column;
     justify-content: center;
-    align-items: center; /* Centre le contenu horizontalement */
-    background-color: #0097B2; /* Bleu pétrole */
-    color: white; /* Texte blanc */
-    padding: 40px 20px; /* Espace autour du contenu */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    align-items: center;
+    background-color: #0097B2;
+    color: white;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header .name {
-    font-family: 'Playfair Display', serif; /* Titre élégant */
-    font-size: 3.5rem; /* Taille légèrement réduite pour un rendu harmonieux */
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
     font-weight: 600;
-    margin: 20px 0; /* Espacement entre le titre et l'image */
-    text-align: center; /* Centrage du texte */
+    margin: 20px 0;
+    text-align: center;
 }
 
 header .profile-pic {
-    width: 250px;              /* Augmentation de la taille de l'image */
-    height: 250px;             /* Taille plus grande */
-    border: 5px solid white;   /* Bordure blanche autour de l'image */
-    border-radius: 50%;        /* Image arrondie */
-    object-fit: cover;         /* Ajuste l'image sans déformation */
-    display: block;            /* Permet à l'image de se comporter comme un bloc */
-    margin: 20px auto;         /* Centre l'image horizontalement avec une marge auto */
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
 }
 
-
-
-/* Style pour les titres */
+/* Titres */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     color: #0097B2;
@@ -49,26 +48,27 @@ h1, h2, h3 {
     margin: 20px 0;
 }
 
-/* Style de l'introduction */
+/* Introduction */
 .introduction {
-    text-align: center; /* Centré */
-    font-family: 'Roboto Slab', serif; /* Police élégante et lisible */
-    font-size: 1.2rem; /* Taille du texte */
-    line-height: 1.8; /* Hauteur de ligne confortable */
-    color: #333333; /* Couleur du texte */
-    max-width: 800px; /* Limite la largeur de la section */
-    margin: 40px auto; /* Centré avec marges */
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333333;
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
-    background-color: #FFFFFF; /* Fond blanc */
-    border-radius: 15px; /* Coins arrondis */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .introduction p {
-    margin-bottom: 20px; /* Espacement entre les paragraphes */
+    margin-bottom: 20px;
 }
 
-/* Style des sections */
+/* Sections */
 .section {
     display: flex;
     flex-wrap: wrap;
@@ -80,6 +80,7 @@ h1, h2, h3 {
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-left: 4px solid #0097B2;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .section .left, .section .right {
@@ -96,7 +97,7 @@ h1, h2, h3 {
     border-left: 3px solid #FFD166;
 }
 
-/* Style des blocs rose pâle */
+/* Sections rose pâle */
 .section-rose {
     display: flex;
     flex-wrap: wrap;
@@ -108,6 +109,7 @@ h1, h2, h3 {
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-left: 5px solid #EF476F;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .section-rose .left, .section-rose .right {
@@ -124,7 +126,7 @@ h1, h2, h3 {
     border-left: 3px solid #118AB2;
 }
 
-/* Style des boutons */
+/* Boutons */
 button, a.button {
     background-color: #0097B2;
     color: white;
@@ -144,7 +146,7 @@ button:hover, a.button:hover {
     transform: scale(1.1);
 }
 
-/* Style des paragraphes */
+/* Paragraphes */
 p {
     margin: 15px 0;
     line-height: 1.8;
@@ -152,7 +154,7 @@ p {
     color: #444444;
 }
 
-/* Style général pour les liens */
+/* Liens */
 a {
     color: #0097B2;
     text-decoration: none;
@@ -163,18 +165,19 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Conteneur pour l'organisation globale */
+/* Container global */
 .container {
     margin-top: 50px;
     text-align: center;
 }
 
-/* Responsive Design pour les petits écrans */
+/* Responsive Design */
 @media (max-width: 768px) {
     .section, .section-rose {
         flex-direction: column;
     }
-    .section .left, .section .right, 
+
+    .section .left, .section .right,
     .section-rose .left, .section-rose .right {
         border: none;
     }
@@ -199,3 +202,32 @@ a:hover {
         padding: 15px;
     }
 }
+
+/* ============================= */
+/* ====== MODE NUIT CSS ======== */
+/* ============================= */
+
+body.night-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.night-mode .section,
+body.night-mode .section-rose,
+body.night-mode .introduction {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-left-color: #00bcd4;
+}
+
+body.night-mode h1,
+body.night-mode h2,
+body.night-mode h3 {
+    color: #00bcd4;
+}
+
+body.night-mode a {
+    color: #4dd0e1;
+}
+
+body.night-mode a:hover
