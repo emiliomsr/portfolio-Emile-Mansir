@@ -61,7 +61,6 @@ h1, h2, h3 {
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .introduction p {
@@ -80,21 +79,11 @@ h1, h2, h3 {
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-left: 4px solid #0097B2;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.section .left, .section .right {
-    flex: 1;
-    margin: 10px;
-    padding: 10px;
-}
-
-.section .left {
-    border-right: 3px solid #F6A5C0;
-}
-
-.section .right {
-    border-left: 3px solid #FFD166;
+.section h2,
+.section p {
+    width: 100%;
 }
 
 /* Sections rose pâle */
@@ -109,21 +98,6 @@ h1, h2, h3 {
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-left: 5px solid #EF476F;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.section-rose .left, .section-rose .right {
-    flex: 1;
-    margin: 10px;
-    padding: 10px;
-}
-
-.section-rose .left {
-    border-right: 3px solid #FFD166;
-}
-
-.section-rose .right {
-    border-left: 3px solid #118AB2;
 }
 
 /* Boutons */
@@ -165,41 +139,36 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Container global */
-.container {
-    margin-top: 50px;
-    text-align: center;
+/* =============================== */
+/* PROJETS & ARTICLES — CORRECTION */
+/* =============================== */
+
+#projects ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#projects li {
+    width: 100%;
+    margin-bottom: 12px;
+    line-height: 1.6;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .section, .section-rose {
+    .section,
+    .section-rose {
         flex-direction: column;
-    }
-
-    .section .left, .section .right,
-    .section-rose .left, .section-rose .right {
-        border: none;
-    }
-
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
     }
 
     header .name {
-        margin: 10px 0;
-        font-size: 2rem;
-    }
-
-    header .profile-pic {
-        margin: 10px 0;
+        font-size: 2.2rem;
     }
 
     .introduction {
         width: 90%;
-        padding: 15px;
     }
 }
 
@@ -234,13 +203,11 @@ body.night-mode a:hover {
     color: #ff6b81;
 }
 
-/* Texte gris rendu clair en mode nuit */
 body.night-mode p,
 body.night-mode li {
     color: #f0f0f0;
 }
 
-/* Boutons */
 body.night-mode button,
 body.night-mode a.button {
     background-color: #4dd0e1;
